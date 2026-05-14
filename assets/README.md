@@ -1,0 +1,1 @@
+Put images, documents, and other non-executable files used in the project here.

@@ -1,0 +1,24 @@
+# https://quarto.org/docs/projects/quarto-projects.html
+
+project:
+  title: "template"
+  output-dir: _output
+  render:
+    - "notebooks/*.qmd"
+
+toc: true
+number-sections: true
+bibliography: references.bib  
+
+format:
+  html:
+    css: [default, style.css]
+    html-math-method: katex
+  pdf:
+    documentclass: manuscript
+    margin-left: 30mm
+    margin-right: 30mm
+
+# https://quarto.org/docs/projects/code-execution.html#freeze
+execute:
+  freeze: true 
