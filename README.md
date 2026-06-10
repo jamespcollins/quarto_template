@@ -1,9 +1,10 @@
 # Quarto Project Template
 
-## Set up tasks
+## Set up tasks on local
 
 - Create an `_environment.local` env var file.
-- Create a `./data` directory.
+- Create a `./data` directory. It is best to _not_ check data directories into Git to save space and avoid exposing sensitive data.
+  - The [yaup](https://github.com/jamespcollins/yaup) package has helper functions for initializing and using a data directory.
 
 ## Other potential set up tasks
 
